@@ -3,74 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashish Kumar Paswan — Full Stack Developer | Portfolio</title>
-    <meta name="description" content="Ashish Kumar Paswan's personal portfolio — Full Stack Developer, B.Tech CSE Student at HETC, and Team PARRAS member. Building innovative web solutions.">
-    <meta name="keywords" content="Ashish Kumar Paswan, portfolio, full stack developer, web developer, PARRAS, B.Tech CSE, HETC">
-    <meta name="author" content="Ashish Kumar Paswan">
+    <title>PARRAS — Code. Collaborate. Create. Impact.</title>
+    <meta name="description" content="PARRAS is a team of 6 passionate developers building innovative projects together. Code. Collaborate. Create. Impact.">
+
+
+
+    <meta name="keywords" content="wing2rah, w2r, parras, parrras, parras project, parras team, wing2rah team, Rahul Shah">
+
+    <meta name="author" content="Rahul Shah">
+
     <meta name="robots" content="index, follow">
 
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Ashish Kumar Paswan — Full Stack Developer">
-    <meta property="og:description" content="Personal portfolio of Ashish Kumar Paswan — Full Stack Developer and PARRAS team member.">
+    <link rel="canonical" href="https://parrras.tech/">
 
-    <meta name="theme-color" content="#f0f4ff">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PARRAS | Innovation, Development & Technology">
+    <meta property="og:description" content="Official website of PARRAS featuring AI, web development, software engineering, technology projects, and innovation by team parras.">
+    <meta property="og:url" content="https://parrras.tech/">
+    <meta property="og:site_name" content="PARRAS">
+    <meta property="og:image" content="https://parrras.tech/og-image.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PARRAS | Innovation, Development & Technology">
+    <meta name="twitter:description" content="Official website of PARRAS featuring AI, web development, software engineering, technology projects, and innovation by team parras.">
+    <meta name="twitter:image" content="https://parrras.tech/og-image.jpg">
+
+    <meta name="theme-color" content="#0F172A">
+    <link rel="icon" href="assets/images/parras_logo.jpeg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=w5WVEYdKfu8x"></script>
+    
 </head>
 <body>
 
-    <!-- Animated Background Orbs -->
-    <div class="bg-orbs" aria-hidden="true">
-        <div class="orb orb-1"></div>
-        <div class="orb orb-2"></div>
-        <div class="orb orb-3"></div>
-        <div class="orb orb-4"></div>
-        <div class="orb orb-5"></div>
-    </div>
-
-    <!-- Grain Overlay -->
-    <div class="grain-overlay" aria-hidden="true"></div>
-
-    <!-- Page Loader -->
-    <div class="page-loader" id="pageLoader">
-        <div class="loader-content">
-            <div class="loader-icon">
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                    <circle cx="24" cy="24" r="20" stroke="url(#loaderGrad)" stroke-width="3" stroke-linecap="round" stroke-dasharray="80 40" class="loader-circle"/>
-                    <defs>
-                        <linearGradient id="loaderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stop-color="#6366f1"/>
-                            <stop offset="100%" stop-color="#ec4899"/>
-                        </linearGradient>
-                    </defs>
-                </svg>
-            </div>
-            <div class="loader-name">Ashish Kumar Paswan</div>
-            <div class="loader-bar"><div class="loader-bar-fill"></div></div>
-        </div>
-    </div>
+    <!-- Floating Particles Background -->
+    <div class="particles" id="particles"></div>
 
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="#home" class="nav-logo" id="navLogo">
-                <div class="nav-logo-icon">A</div>
-                <span>Ashish</span>
+            <a href="#" class="nav-logo">
+                <img src="assets/images/parras_logo.jpeg" alt="PARRAS Logo" class="nav-logo-img">
+                <span class="nav-logo-text">./PARRAS</span>
             </a>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#mentor" class="nav-link">Mentor</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <a href="ashish _Resume new 2.pdf" download class="nav-cta" id="navResumeBtn">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                Download CV
-            </a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
@@ -81,452 +65,313 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <div class="hero-badge">
-                        <span class="badge-dot"></span>
-                        <span>Available for Opportunities</span>
-                    </div>
-                    <p class="hero-greeting">Hello, I'm</p>
-                    <h1 class="hero-name">Ashish Kumar <span class="gradient-text">Paswan</span></h1>
-                    <p class="hero-title-role">
-                        <span class="typing-text" id="typingText">Full Stack Developer</span>
-                        <span class="typing-cursor">|</span>
-                    </p>
-                    <p class="hero-description">
-                        A passionate B.Tech Computer Science student with a love for building clean, 
-                        efficient web applications. I turn ideas into impactful digital solutions using 
-                        modern technologies.
-                    </p>
-                    <div class="hero-cta">
-                        <a href="#projects" class="btn btn-primary" id="viewWorkBtn">
-                            <span>View My Work</span>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                        </a>
-                        <a href="#contact" class="btn btn-outline" id="getInTouchBtn">Get in Touch</a>
-                        <a href="ashish _Resume new 2.pdf" download class="btn btn-resume" id="downloadResumeBtn">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                            <span>Resume</span>
-                        </a>
-                    </div>
-                    <div class="hero-socials">
-                        <a href="https://github.com/ashishkumarpaswan" target="_blank" rel="noopener" class="social-link" title="GitHub" id="githubLink">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                        </a>
-                        <a href="https://linkedin.com/in/ashishkumarpaswan" target="_blank" rel="noopener" class="social-link" title="LinkedIn" id="linkedinLink">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                        </a>
-                        <a href="mailto:btechashish01@gmail.com" class="social-link" title="Email" id="emailLink">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        </a>
-                        <a href="tel:+919903097504" class="social-link" title="Phone" id="phoneLink">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        </a>
-                    </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Team of Innovators</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">We are</span>
+                <span class="title-highlight">PARRAS</span>
+            </h1>
+            <p class="hero-tagline">Building...</p>
+            <p class="hero-description">
+                A team of six passionate developers united by a shared vision — 
+                building innovative solutions that make a real difference.
+            </p>
+            <div class="hero-cta">
+                <a href="#team" class="btn btn-primary">
+                    <span>Meet the Team</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+                <a href="#about" class="btn btn-outline">Learn More</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-count="6">0</span>
+                    <span class="stat-label">Members</span>
                 </div>
-                <div class="hero-image-wrapper">
-                    <div class="hero-image-container">
-                        <img src="ashish.jpeg" alt="Ashish Kumar Paswan" class="hero-image">
-                        <div class="hero-image-glow"></div>
-                        <div class="hero-float-card card-1">
-                            <div class="card-icon">💻</div>
-                            <div class="card-label">Role</div>
-                            <div class="card-value">Full Stack Dev</div>
-                        </div>
-                        <div class="hero-float-card card-2">
-                            <div class="card-icon">🎓</div>
-                            <div class="card-label">Education</div>
-                            <div class="card-value">B.Tech CSE</div>
-                        </div>
-                        <div class="hero-float-card card-3">
-                            <div class="card-icon">📊</div>
-                            <div class="card-label">CGPA</div>
-                            <div class="card-value">7.29</div>
-                        </div>
-                    </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="1">0</span>
+                    <span class="stat-label">Mentor</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Possibilities</span>
                 </div>
             </div>
+        </div>
+        <div class="hero-visual">
+            <div class="logo-showcase">
+                <img src="assets/images/parras_logo.jpeg" alt="PARRAS Logo" class="hero-logo">
+                <div class="logo-glow"></div>
+                <div class="orbit orbit-1">
+                    <div class="orbit-dot"></div>
+                </div>
+                <div class="orbit orbit-2">
+                    <div class="orbit-dot"></div>
+                </div>
+                <div class="orbit orbit-3">
+                    <div class="orbit-dot"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" id="scrollIndicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="section" id="about">
+    <section class="section about" id="about">
         <div class="container">
-            <span class="section-tag reveal">About Me</span>
-            <h2 class="section-title reveal reveal-delay-1">Who I <span class="gradient-text">Am</span></h2>
-
-            <div class="about-content reveal reveal-delay-2">
-                <div class="about-text">
-                    <p>
-                        I'm <strong>Ashish Kumar Paswan</strong>, a B.Tech Computer Science and Engineering student 
-                        at <strong style="color: var(--accent-1);">Hooghly Engineering & Technology College</strong>. 
-                        I have a solid foundation in full-stack web development and core computer science subjects 
-                        including Data Structures, Operating Systems, Computer Networks, and DBMS.
-                    </p>
-                    <p>
-                        I enjoy building web applications using <strong>React, Node.js, Express, and MongoDB</strong>. 
-                        I am a quick learner who loves solving problems and is constantly looking for opportunities 
-                        to improve my skills and grow as a software developer. As a proud member of 
-                        <strong style="color: var(--accent-2);">Team PARRAS</strong>, I collaborate on projects that 
-                        make a real impact.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat-card" id="statProjects">
-                            <div class="stat-number" data-count="5" data-suffix="+">0</div>
-                            <div class="stat-label">Projects</div>
-                        </div>
-                        <div class="stat-card" id="statTech">
-                            <div class="stat-number" data-count="8" data-suffix="+">0</div>
-                            <div class="stat-label">Technologies</div>
-                        </div>
-                        <div class="stat-card" id="statCertifications">
-                            <div class="stat-number" data-count="2" data-suffix="">0</div>
-                            <div class="stat-label">Certifications</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-details">
-                    <div class="detail-item" id="detailName">
-                        <div class="detail-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-                        </div>
-                        <div>
-                            <div class="detail-label">Name</div>
-                            <div class="detail-value">Ashish Kumar Paswan</div>
-                        </div>
-                    </div>
-                    <div class="detail-item" id="detailEducation">
-                        <div class="detail-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1 4 3 6 3s6-2 6-3v-5"/></svg>
-                        </div>
-                        <div>
-                            <div class="detail-label">Education</div>
-                            <div class="detail-value">B.Tech CSE (HETC, 2023–2027)</div>
-                        </div>
-                    </div>
-                    <div class="detail-item" id="detailTeam">
-                        <div class="detail-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                        </div>
-                        <div>
-                            <div class="detail-label">Team</div>
-                            <div class="detail-value">PARRAS</div>
-                        </div>
-                    </div>
-                    <div class="detail-item" id="detailEmail">
-                        <div class="detail-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        </div>
-                        <div>
-                            <div class="detail-label">Email</div>
-                            <div class="detail-value">btechashish01@gmail.com</div>
-                        </div>
-                    </div>
-                    <div class="detail-item" id="detailPhone">
-                        <div class="detail-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        </div>
-                        <div>
-                            <div class="detail-label">Phone</div>
-                            <div class="detail-value">+91-9903097504</div>
-                        </div>
-                    </div>
-                </div>
+            <div class="section-header">
+                <span class="section-tag">Who We Are</span>
+                <h2 class="section-title">About <span class="gradient-text">PARRAS</span></h2>
+                <p class="section-subtitle">
+                    We're a team of B.Tech Computer Science students driven by curiosity, 
+                    creativity, and the desire to build technology that matters.
+                </p>
             </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="section" id="skills">
-        <div class="container">
-            <span class="section-tag reveal">What I Know</span>
-            <h2 class="section-title reveal reveal-delay-1">My <span class="gradient-text">Skills</span></h2>
-            <p class="section-subtitle reveal reveal-delay-2">
-                A diverse set of technologies and tools that I use to bring ideas to life.
-            </p>
-
-            <div class="skills-grid">
-                <div class="skill-category reveal reveal-delay-1" id="skillFrontend">
-                    <div class="skill-category-icon">⚡</div>
-                    <h3>Frontend</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">HTML5</span>
-                        <span class="skill-tag">CSS3</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">Responsive Design</span>
+            <div class="about-grid">
+                <div class="about-card" data-animate="fade-up" data-delay="0">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
                     </div>
+                    <h3>Code</h3>
+                    <p>We write clean, efficient code that solves real problems. From frontend to backend, we cover the full stack.</p>
                 </div>
-                <div class="skill-category reveal reveal-delay-2" id="skillBackend">
-                    <div class="skill-category-icon">🔧</div>
-                    <h3>Backend</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Express.js</span>
-                        <span class="skill-tag">REST APIs</span>
-                        <span class="skill-tag">MongoDB</span>
+                <div class="about-card" data-animate="fade-up" data-delay="100">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     </div>
+                    <h3>Collaborate</h3>
+                    <p>Together we're stronger. We believe in teamwork, knowledge sharing, and lifting each other up.</p>
                 </div>
-                <div class="skill-category reveal reveal-delay-3" id="skillLanguages">
-                    <div class="skill-category-icon">💡</div>
-                    <h3>Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">C</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">JavaScript</span>
+                <div class="about-card" data-animate="fade-up" data-delay="200">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                     </div>
+                    <h3>Create</h3>
+                    <p>Innovation is our fuel. We design and build projects that push the boundaries of what's possible.</p>
                 </div>
-                <div class="skill-category reveal reveal-delay-4" id="skillTools">
-                    <div class="skill-category-icon">🛠️</div>
-                    <h3>Tools & Concepts</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git / GitHub</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Data Structures</span>
-                        <span class="skill-tag">OS</span>
-                        <span class="skill-tag">Computer Networks</span>
-                        <span class="skill-tag">DBMS</span>
+                <div class="about-card" data-animate="fade-up" data-delay="300">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                     </div>
-                </div>
-                <div class="skill-category reveal reveal-delay-5" id="skillSoft">
-                    <div class="skill-category-icon">🤝</div>
-                    <h3>Soft Skills</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Collaboration</span>
-                        <span class="skill-tag">Communication</span>
-                        <span class="skill-tag">Planning</span>
-                        <span class="skill-tag">Adaptability</span>
-                        <span class="skill-tag">Prioritization</span>
-                    </div>
+                    <h3>Impact</h3>
+                    <p>We build with purpose. Every project aims to create meaningful impact in the real world.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section class="section" id="projects">
+    <section class="section projects" id="projects">
         <div class="container">
-            <span class="section-tag reveal">My Work</span>
-            <h2 class="section-title reveal reveal-delay-1">Featured <span class="gradient-text">Projects</span></h2>
-            <p class="section-subtitle reveal reveal-delay-2">
-                Here are some of the projects I've built — solving real problems with modern web technologies.
-            </p>
-
+            <div class="section-header">
+                <span class="section-tag">What We Build</span>
+                <h2 class="section-title">Our <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">
+                    Currently working on exciting projects that push our skills and creativity. 
+                    Stay tuned as we bring these ideas to life.
+                </p>
+            </div>
             <div class="projects-grid">
+
                 <!-- Project 1 -->
-                <div class="project-card reveal reveal-delay-1" id="projectAmazon">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link" title="GitHub" id="amazonGithub">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                            </a>
-                            <a href="#" class="project-link" title="Live Demo" id="amazonDemo">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                            </a>
-                        </div>
+                <div class="project-card" data-animate="fade-up" data-delay="0">
+                    <div class="project-status">
+                        <span class="status-dot status-progress"></span>
+                        <span class="status-text">In Progress</span>
                     </div>
-                    <h3 class="project-name">E-commerce Amazon Clone</h3>
-                    <p class="project-description">Built a responsive, full-featured Amazon clone with core e-commerce functionalities including user authentication, product browsing, and a complete shopping cart system.</p>
+                    <div class="project-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3 class="project-name">Project Name #1</h3>
+                    <p class="project-description">Project description goes here. Explain what the project does and the problem it solves.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">HTML</span>
-                        <span class="tech-tag">CSS</span>
-                        <span class="tech-tag">Vanilla JS</span>
+                        <span class="tech-tag">Tech 1</span>
+                        <span class="tech-tag">Tech 2</span>
+                        <span class="tech-tag">Tech 3</span>
+                    </div>
+                    <div class="project-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 35%"></div>
+                        </div>
+                        <span class="progress-label">35% Complete</span>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="project-card reveal reveal-delay-2" id="projectStudentMgmt">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link" title="GitHub" id="studentGithub">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our People</span>
+                <h2 class="section-title">Meet the <span class="gradient-text">Team</span></h2>
+                <p class="section-subtitle">
+                    Six minds, one mission. Each member brings unique skills and perspectives 
+                    that make PARRAS what it is.
+                </p>
+            </div>
+            <div class="team-grid">
+                <!-- Prince Kumar -->
+                <div class="team-card" data-animate="fade-up" data-delay="0">
+                    <div class="card-image-wrapper">
+                        <img src="assets/images/prince_kumar.png" alt="Prince Kumar" class="card-image" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="#" class="portfolio-link" title="View Portfolio">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                             </a>
                         </div>
                     </div>
-                    <h3 class="project-name">Student Management System</h3>
-                    <p class="project-description">Feature-rich system with full CRUD operations, student profile management, attendance tracking, GPA calculation, search & filtering, CSV/JSON export, and LocalStorage-based data persistence. Modern glassmorphism UI with interactive dashboard and real-time statistics.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">HTML</span>
-                        <span class="tech-tag">CSS</span>
-                        <span class="tech-tag">Vanilla JS</span>
+                    <div class="card-info">
+                        <h3 class="card-name">Prince Kumar</h3>
+                        <span class="card-role">Team Member</span>
+                        <div class="card-slug">parrras.tech/prince</div>
                     </div>
                 </div>
 
-                <!-- Project 3 -->
-                <div class="project-card reveal reveal-delay-3" id="projectUpcoming">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link" title="GitHub" id="upcomingGithub">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                <!-- Achhat Kumar -->
+                <div class="team-card" data-animate="fade-up" data-delay="100">
+                    <div class="card-image-wrapper">
+                        <img src="assets/images/achhat_kumar.png" alt="Achhat Kumar" class="card-image" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="#" class="portfolio-link" title="View Portfolio">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                             </a>
                         </div>
                     </div>
-                    <h3 class="project-name">Coming Soon 🚀</h3>
-                    <p class="project-description">Exciting new project in the works! Currently exploring React, Node.js, and MongoDB to build something innovative with Team PARRAS. Stay tuned for updates!</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">MongoDB</span>
+                    <div class="card-info">
+                        <h3 class="card-name">Achhat Kumar</h3>
+                        <span class="card-role">Team Member</span>
+                        <div class="card-slug">parrras.tech/achhat</div>
+                    </div>
+                </div>
+
+                <!-- Rahul Shah -->
+                <div class="team-card" data-animate="fade-up" data-delay="200">
+                    <div class="card-image-wrapper">
+                        <img src="assets/images/rahul_shah.png" alt="Rahul Shah" class="card-image" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="https://rahulshah.me" class="portfolio-link" title="View Portfolio">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-name">Rahul Shah</h3>
+                        <span class="card-role">Team Member</span>
+                        <div class="card-slug">rahulshah.me</div>
+                    </div>
+                </div>
+
+                <!-- Rohit Kr Yadav -->
+                <div class="team-card" data-animate="fade-up" data-delay="300">
+                    <div class="card-image-wrapper">
+                        <img src="assets/images/rohit_yadav.png" alt="Rohit Kr Yadav" class="card-image" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="#" class="portfolio-link" title="View Portfolio">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-name">Rohit Kr Yadav</h3>
+                        <span class="card-role">Team Member</span>
+                        <div class="card-slug">parrras.tech/rohit</div>
+                    </div>
+                </div>
+
+                <!-- Ashish Kr Paswan -->
+                <div class="team-card" data-animate="fade-up" data-delay="400">
+                    <div class="card-image-wrapper">
+                        <img src="assets/images/ashish_paswan.png" alt="Ashish Kr Paswan" class="card-image" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="#" class="portfolio-link" title="View Portfolio">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-name">Ashish Kr Paswan</h3>
+                        <span class="card-role">Team Member</span>
+                        <div class="card-slug">parrras.tech/ashish</div>
+                    </div>
+                </div>
+
+                <!-- Samir Shaw -->
+                <div class="team-card" data-animate="fade-up" data-delay="500">
+                    <div class="card-image-wrapper">
+                        <img src="assets/images/samir_shaw.png" alt="Samir Shaw" class="card-image" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="#" class="portfolio-link" title="View Portfolio">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-name">Samir Shaw</h3>
+                        <span class="card-role">Team Member</span>
+                        <div class="card-slug">parrras.tech/samir</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education & Certifications Section -->
-    <section class="section" id="education">
+    <!-- Mentor Section -->
+    <section class="section mentor" id="mentor">
         <div class="container">
-            <span class="section-tag reveal">My Journey</span>
-            <h2 class="section-title reveal reveal-delay-1">Education & <span class="gradient-text">Certifications</span></h2>
-
-            <div class="education-grid">
-                <div class="education-timeline">
-                    <div class="timeline-item reveal reveal-delay-1" id="eduBtech">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <div class="timeline-badge">2023 – 2027</div>
-                            <h3>B.Tech in Computer Science & Engineering</h3>
-                            <p class="timeline-institution">Hooghly Engineering & Technology College, West Bengal</p>
-                            <p class="timeline-detail">CGPA: 7.29 (Aggregate)</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item reveal reveal-delay-2" id="eduHigher">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <div class="timeline-badge">2023</div>
-                            <h3>Higher Secondary Education (ISC)</h3>
-                            <p class="timeline-institution">Jogamaya Memorial Institute</p>
-                            <p class="timeline-detail">Percentage: 69.75%</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item reveal reveal-delay-3" id="eduSecondary">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <div class="timeline-badge">2021</div>
-                            <h3>Secondary Education (ISC)</h3>
-                            <p class="timeline-institution">Jogamaya Memorial Institute</p>
-                            <p class="timeline-detail">Percentage: 82.4%</p>
-                        </div>
-                    </div>
+            <div class="section-header">
+                <span class="section-tag">Our Guide</span>
+                <h2 class="section-title">Project <span class="gradient-text">Mentor</span></h2>
+                <p class="section-subtitle">
+                    Every great team needs a great mentor. Our project is guided by an exceptional leader.
+                </p>
+            </div>
+            <div class="mentor-card" data-animate="fade-up">
+                <div class="mentor-image-wrapper">
+                    <img src="assets/images/rakhi_chakraborty.png" alt="Rakhi Chakraborty" class="mentor-image" loading="lazy">
+                    <div class="mentor-glow"></div>
                 </div>
-
-                <div class="certifications-section">
-                    <h3 class="cert-heading reveal reveal-delay-2">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
-                        Certifications
-                    </h3>
-                    <div class="cert-list">
-                        <div class="cert-card glass-card reveal reveal-delay-3" id="certPython">
-                            <div class="cert-icon">🐍</div>
-                            <div>
-                                <div class="cert-name">Joy of Computing with Python</div>
-                                <div class="cert-issuer">NPTEL</div>
-                            </div>
-                        </div>
-                        <div class="cert-card glass-card reveal reveal-delay-4" id="certAI">
-                            <div class="cert-icon">🤖</div>
-                            <div>
-                                <div class="cert-name">Programming with Generative AI</div>
-                                <div class="cert-issuer">NPTEL</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h3 class="cert-heading reveal reveal-delay-3" style="margin-top: 40px;">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
-                        Extracurricular & Hobbies
-                    </h3>
-                    <div class="hobbies-grid reveal reveal-delay-4">
-                        <div class="hobby-tag glass-card">🏏 Cricket</div>
-                        <div class="hobby-tag glass-card">📸 Photography</div>
-                        <div class="hobby-tag glass-card">🎬 Videography</div>
-                        <div class="hobby-tag glass-card">🌱 Gardening</div>
-                        <div class="hobby-tag glass-card">📚 Reading</div>
-                        <div class="hobby-tag glass-card">🎵 Music</div>
-                        <div class="hobby-tag glass-card">💻 Smart Coder 2.24</div>
+                <div class="mentor-info">
+                    <div class="mentor-badge">Project Mentor</div>
+                    <h3 class="mentor-name">Rakhi Chakraborty</h3>
+                    <p class="mentor-description">
+                        Our esteemed mentor who guides Team PARRAS through every phase of our project. 
+                        With her expertise and vision, she helps us transform ideas into impactful solutions 
+                        and grow as developers and professionals.
+                    </p>
+                    <div class="mentor-quote">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                        <p>A mentor shapes the path; the team walks it with courage and code.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="section" id="contact">
+    <!-- Contact / CTA Section -->
+    <section class="section cta" id="contact">
         <div class="container">
-            <span class="section-tag reveal">Get in Touch</span>
-            <h2 class="section-title reveal reveal-delay-1">Let's <span class="gradient-text">Connect</span></h2>
-            <p class="section-subtitle reveal reveal-delay-2">
-                Have an idea, question, or just want to say hi? Feel free to reach out!
-            </p>
-
-            <div class="contact-content reveal reveal-delay-3">
-                <div class="contact-info">
-                    <div class="contact-item glass-card" id="contactEmail">
-                        <div class="contact-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        </div>
-                        <div>
-                            <div class="contact-label">Email</div>
-                            <div class="contact-value">btechashish01@gmail.com</div>
-                        </div>
-                    </div>
-                    <div class="contact-item glass-card" id="contactPhone">
-                        <div class="contact-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        </div>
-                        <div>
-                            <div class="contact-label">Phone</div>
-                            <div class="contact-value">+91-9903097504</div>
-                        </div>
-                    </div>
-                    <div class="contact-item glass-card" id="contactLocation">
-                        <div class="contact-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                        </div>
-                        <div>
-                            <div class="contact-label">Location</div>
-                            <div class="contact-value">West Bengal, India</div>
-                        </div>
-                    </div>
-                    <div class="contact-item glass-card" id="contactAvailability">
-                        <div class="contact-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        </div>
-                        <div>
-                            <div class="contact-label">Availability</div>
-                            <div class="contact-value">Open for Opportunities</div>
-                        </div>
-                    </div>
-                </div>
-
-                <form class="contact-form glass-card" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" class="form-input" id="formName" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-input" id="formEmail" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-input" id="formSubject" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-textarea" id="formMessage" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-submit" id="submitBtn">
-                        Send Message ✨
-                    </button>
-                </form>
+            <div class="cta-content">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="cta-title">Ready to <span class="gradient-text">Collaborate?</span></h2>
+                <p class="cta-description">
+                    We're always open to new ideas, collaborations, and opportunities. 
+                    Reach out and let's build something amazing together.
+                </p>
+                <a href="mailto:hello@parrras.tech" class="btn btn-primary btn-large">
+                    <span>Contact Us</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </a>
             </div>
         </div>
     </section>
@@ -535,27 +380,26 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo gradient-text">Ashish Kumar Paswan</div>
-                <p class="footer-text">Full Stack Developer • B.Tech CSE • Team PARRAS</p>
+                <div class="footer-brand">
+                    <img src="assets/images/parras_logo.jpeg" alt="PARRAS Logo" class="footer-logo">
+                    <span class="footer-name">PARRAS</span>
+                    <p class="footer-tagline">Code. Collaborate. Create. Impact.</p>
+                </div>
                 <div class="footer-links">
-                    <a href="#home" class="footer-link">Home</a>
-                    <a href="#about" class="footer-link">About</a>
-                    <a href="#skills" class="footer-link">Skills</a>
-                    <a href="#projects" class="footer-link">Projects</a>
-                    <a href="#education" class="footer-link">Education</a>
-                    <a href="#contact" class="footer-link">Contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#team">Team</a>
+                    <a href="#mentor">Mentor</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Ashish Kumar Paswan. Built with ❤️ | Team PARRAS</p>
+                <p>&copy; 2026 Team PARRAS. All rights reserved.</p>
+                <p class="footer-built">Built with ❤️ by Team PARRAS</p>
             </div>
         </div>
     </footer>
-
-    <!-- Scroll to Top -->
-    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
-    </button>
 
     <script src="script.js"></script>
 </body>
