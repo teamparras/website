@@ -1,0 +1,33 @@
+name: Restrict PR to members folder
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check changed files
+        run: |
+          # PR me jo bhi files change hui hain, unki list nikaalo
+          CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }} origin/${{ github.head_ref }})
+
+          echo "Changed files:"
+          echo "$CHANGED_FILES"
+
+          # Check karo koi file "members/" ke bahar to nahi hai
+          INVALID_FILES=$(echo "$CHANGED_FILES" | grep -v "^members/" || true)
+
+          if [ -n "$INVALID_FILES" ]; then
+            echo "❌ Ye files 'members/' folder ke bahar hain:"
+            echo "$INVALID_FILES"
+            exit 1
+          else
+            echo "✅ Sab files 'members/' ke andar hain. Allowed!"
+          fi
